@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "enter the file name"
+read var
+#include <stdio.h>
+/**
+
+
+*/
+int main ()
+{
+return (0);
+
+}
