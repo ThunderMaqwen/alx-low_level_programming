@@ -6,11 +6,13 @@
 */
 int main(void)
 {
-	char ch = '0'
+	int ch = 0;
 
-		while (ch <= '9')
+		while (ch <= 9)
 		{
-			putchar(ch - 48", ");
+			putchar(ch + 48);
+			putchar(44);
+			putchar(' ');
 			ch++;
 		}
 	putchar('\n');
