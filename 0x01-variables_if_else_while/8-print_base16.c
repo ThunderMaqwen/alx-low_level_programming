@@ -6,14 +6,14 @@
 */
 int main(void)
 {
-	char ch = '0' ;
+	char ch = '0';
 
 	while (ch <= 'f')
 	{
 
 		putchar(ch);
 		if (ch == '9')
-			ch+=39;
+			ch += 39;
 		ch++;
 	}
 	putchar('\n');
