@@ -11,6 +11,10 @@ int main(void)
 		while (ch <= 9)
 		{
 			putchar(ch + 48);
+			if (ch == 9)
+			{
+				break;
+			}
 			putchar(44);
 			putchar(' ');
 			ch++;
